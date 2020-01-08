@@ -55,7 +55,7 @@ class TicTacToe
       move(index, current_player)
       display_board
     else
-      puts "invalid move"
+      puts "invalid move, please try again."
       turn
     end
   end
